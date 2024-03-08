@@ -1,0 +1,20 @@
+import { NCButton } from "./index";
+import { Meta, StoryObj } from "@storybook/react";
+declare const meta: Meta<typeof NCButton>;
+export default meta;
+type Story = StoryObj<typeof NCButton>;
+export declare const Primary: Story;
+export declare const Yellow: Story;
+export declare const YellowButtonWithDarkBlueText: Story;
+export declare const LightBlue: Story;
+export declare const DarkBlue: Story;
+export declare const Large: Story;
+export declare const Small: Story;
+export declare const SolidVariant: Story;
+export declare const Loading: Story;
+export declare const VarianteOutline: Story;
+export declare const ButtonWithIcon: Story;
+export declare const ButtonWithOutlineIcon: Story;
+export declare const LinearGradient: Story;
+export declare const HoverLinearGradient: Story;
+//# sourceMappingURL=ncbutton.stories.d.ts.map

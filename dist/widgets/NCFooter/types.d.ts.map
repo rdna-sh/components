@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/widgets/NCFooter/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,kBAAkB,CAAC;AAE5C,MAAM,WAAW,aAAa;IAC1B,QAAQ,EAAE,MAAM,GAAG,GAAG,CAAC;IACvB,SAAS,EAAE,MAAM,GAAG,GAAG,CAAC;IACxB,oBAAoB,CAAC,EAAE,QAAQ,CAAC;CACnC"}

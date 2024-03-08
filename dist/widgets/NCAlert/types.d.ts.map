@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/widgets/NCAlert/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,kBAAkB,CAAC;AAE9C,MAAM,MAAM,YAAY,GAAG;IACvB,OAAO,EAAE,MAAM,CAAC;IAChB,IAAI,EAAE,OAAO,GAAG,MAAM,GAAG,SAAS,GAAG,SAAS,GAAG,SAAS,GAAG,SAAS,CAAC;CAC1E,GAAG,UAAU,CAAC"}
