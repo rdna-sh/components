@@ -1,6 +1,6 @@
 {
-  "name": "novacap-ui-components",
-  "version": "1.2.1",
+  "name": "novacap-components",
+  "version": "1.2.2",
   "description": "Repositório com os componentes que serão utilizados nos projetos da [Novacap] (https://www.novacap.df.gov.br/a-novacap/)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,11 +17,11 @@
   "author": "novacap",
   "license": "ISC",
   "peerDependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "@chakra-ui/react": "^2.8.2",
-    "@chakra-ui/icons": "^2.1.1"
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -123,6 +123,7 @@
     "caniuse-lite": "^1.0.30001591",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "chai": "^4.4.1",
+    "chakra-dayzed-datepicker": "^0.2.10",
     "chalk": "^4.1.2",
     "check-error": "^1.0.3",
     "chokidar": "^3.6.0",
@@ -172,6 +173,8 @@
     "css.escape": "^1.5.1",
     "cssesc": "^3.0.0",
     "csstype": "^3.1.3",
+    "date-fns": "^3.4.0",
+    "dayzed": "^3.2.3",
     "debug": "^4.3.4",
     "dedent": "^0.7.0",
     "deep-eql": "^4.1.3",
@@ -617,13 +620,13 @@
     "stop-iteration-iterator": "^1.0.0",
     "store2": "^2.14.3",
     "stream-shift": "^1.0.3",
+    "string_decoder": "^1.3.0",
     "string-width": "^5.1.2",
     "string-width-cjs": "^4.2.3",
     "string.prototype.matchall": "^4.0.10",
     "string.prototype.trim": "^1.2.8",
     "string.prototype.trimend": "^1.0.7",
     "string.prototype.trimstart": "^1.0.7",
-    "string_decoder": "^1.3.0",
     "strip-ansi": "^6.0.1",
     "strip-ansi-cjs": "^6.0.1",
     "strip-final-newline": "^2.0.0",

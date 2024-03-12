@@ -33,6 +33,7 @@ __exportStar(require("./widgets/NCTable/NCTablePagination"), exports);
 __exportStar(require("./widgets/NCTable/NCTableCell"), exports);
 __exportStar(require("./widgets/NCTable/NCTableRow"), exports);
 __exportStar(require("./widgets/NCAlert"), exports);
+__exportStar(require("./widgets/NCSingleDatePicker"), exports);
 __exportStar(require("./widgets/NCHeader/types"), exports);
 __exportStar(require("./widgets/NCFooter/types"), exports);
 __exportStar(require("./widgets/NCPopoverWithOptions/types"), exports);

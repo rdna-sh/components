@@ -20,6 +20,7 @@ export * from "./widgets/NCTable/NCTablePagination";
 export * from "./widgets/NCTable/NCTableCell";
 export * from "./widgets/NCTable/NCTableRow";
 export * from "./widgets/NCAlert";
+export * from "./widgets/NCSingleDatePicker";
 
 // types
 export * from "./widgets/NCHeader/types";

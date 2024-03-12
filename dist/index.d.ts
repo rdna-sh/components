@@ -17,6 +17,7 @@ export * from "./widgets/NCTable/NCTablePagination";
 export * from "./widgets/NCTable/NCTableCell";
 export * from "./widgets/NCTable/NCTableRow";
 export * from "./widgets/NCAlert";
+export * from "./widgets/NCSingleDatePicker";
 export * from "./widgets/NCHeader/types";
 export * from "./widgets/NCFooter/types";
 export * from "./widgets/NCPopoverWithOptions/types";

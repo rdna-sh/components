@@ -51,3 +51,14 @@ npm publish
 ```
 npm i novacap-ui-components@sua-versao
 ```
+
+## Possívels problemas
+
+- Caso você encontre algum problema, por favor, entre em contato.
+
+- Caso você tenha algum problema relacionado a execução do pacote, verifique se você tem os seguintes pacotes instalandos
+  - [Dayzed]
+  - [React Icons]()
+  - [Chakra Icons]()
+  - [Date FNS]()
+  
