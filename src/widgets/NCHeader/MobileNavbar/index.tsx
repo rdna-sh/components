@@ -3,9 +3,9 @@ import { Box, Collapse, Icon, Stack, Text, useDisclosure } from "@chakra-ui/reac
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { MobileNavbarItemProps, MobileNavbarProps } from "../types";
 
-export const MobileNavbar: React.FC<MobileNavbarProps> = ({ navbarItems }) => {
+export const MobileNavbar: React.FC<MobileNavbarProps> = ({ navbarItems, headerBg }) => {
     return (
-        <Stack bg="headerNovacap.500" p={4} display={{ md: "none" }}>
+        <Stack bg={headerBg} p={4} display={{ md: "none" }}>
             {navbarItems.map((navItem, index) => (
                 <MobileNavItem key={index} mobileNavItem={navItem} />
             ))}

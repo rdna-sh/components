@@ -9,6 +9,7 @@ import { DesktopNavbar } from "./DesktopNavbar";
 import { NavbarUserOptions } from "./NavbarUserOptions";
 
 export const NCHeader: React.FC<NCHeaderProps> = ({
+    headerBg = "headerNovacap.500",
     navbarItems = [],
     headerProps,
     logoHeader,
@@ -19,7 +20,7 @@ export const NCHeader: React.FC<NCHeaderProps> = ({
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box as="header" bg="headerNovacap.500" {...headerProps}>
+        <Box as="header" bg={headerBg} {...headerProps}>
             <Flex
                 color="white"
                 minH={"60px"}
@@ -59,7 +60,7 @@ export const NCHeader: React.FC<NCHeaderProps> = ({
                 </Flex>
             </Flex>
             <Collapse in={isOpen} animateOpacity>
-                <MobileNavbar navbarItems={navbarItems} />
+                <MobileNavbar navbarItems={navbarItems} headerBg={headerBg} />
             </Collapse>
         </Box>
     );

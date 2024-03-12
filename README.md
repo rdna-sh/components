@@ -2,6 +2,9 @@
 
 Repositório com os componentes que serão utilizados nos projetos da [Novacap](https://www.novacap.df.gov.br/a-novacap/)
 
+## Pré-requisitos
+- Node 18^
+
 ## Instalação
 
 - Execute o comando abaixo para instalar as dependências

@@ -49,3 +49,14 @@ export const ProfileOptionsDisabled: Story = {
         profilePicturePlaceholder: "../../../src/assets/images/user-placeholder.png",
     },
 };
+
+export const HeaderAnotherColor: Story = {
+    args: {
+        navbarItems: navbarItemsFake,
+        profilePicture: "https://i.pinimg.com/550x/25/6c/5d/256c5d210e7ebba0b72146023cf9740d.jpg",
+        profileOptions: opcoesPerfilFake,
+        logoHeader: "../../../src/assets/images/header-novacap-branco.png",
+        profilePicturePlaceholder: "../../../src/assets/images/user-placeholder.png",
+        headerBg: "#012F64",
+    },
+};
