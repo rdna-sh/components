@@ -7,4 +7,5 @@ export declare const Default: Story;
 export declare const WithoutProfilePicture: Story;
 export declare const NavbarDisabled: Story;
 export declare const ProfileOptionsDisabled: Story;
+export declare const HeaderAnotherColor: Story;
 //# sourceMappingURL=ncheader.stories.d.ts.map

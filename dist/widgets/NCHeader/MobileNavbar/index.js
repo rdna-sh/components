@@ -7,8 +7,8 @@ exports.MobileNavbar = void 0;
 const react_1 = __importDefault(require("react"));
 const react_2 = require("@chakra-ui/react");
 const icons_1 = require("@chakra-ui/icons");
-const MobileNavbar = ({ navbarItems }) => {
-    return (react_1.default.createElement(react_2.Stack, { bg: "headerNovacap.500", p: 4, display: { md: "none" } }, navbarItems.map((navItem, index) => (react_1.default.createElement(MobileNavItem, { key: index, mobileNavItem: navItem })))));
+const MobileNavbar = ({ navbarItems, headerBg }) => {
+    return (react_1.default.createElement(react_2.Stack, { bg: headerBg, p: 4, display: { md: "none" } }, navbarItems.map((navItem, index) => (react_1.default.createElement(MobileNavItem, { key: index, mobileNavItem: navItem })))));
 };
 exports.MobileNavbar = MobileNavbar;
 const MobileNavItem = ({ mobileNavItem }) => {

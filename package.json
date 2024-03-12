@@ -1,6 +1,6 @@
 {
   "name": "novacap-ui-components",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Repositório com os componentes que serão utilizados nos projetos da [Novacap] (https://www.novacap.df.gov.br/a-novacap/)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

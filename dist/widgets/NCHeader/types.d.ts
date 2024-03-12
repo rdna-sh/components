@@ -20,6 +20,7 @@ export interface NCHeaderProps {
     profilePicture?: string | any;
     logoHeader?: string | any;
     profilePicturePlaceholder?: string | any;
+    headerBg?: string;
     headerProps?: BoxProps;
 }
 export interface DesktopNavbarProps {
@@ -33,6 +34,7 @@ export interface MobileNavbarItemProps {
 }
 export interface MobileNavbarProps {
     navbarItems: NavbarItem[];
+    headerBg: string;
 }
 export interface NavbarUserOptionsProps {
     profilePicture: string | any;
