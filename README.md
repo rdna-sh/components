@@ -1,4 +1,4 @@
-# Novacap UI Componentes
+# Novacap UI Components
 
 Repositório com os componentes que serão utilizados nos projetos da [Novacap](https://www.novacap.df.gov.br/a-novacap/)
 
