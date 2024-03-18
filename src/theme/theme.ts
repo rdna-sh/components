@@ -11,7 +11,7 @@ export const novaCapTheme = extendTheme({
             100: "#bdd7f5",
             200: "#95bdea",
             300: "#6ca2e0",
-            400: "#4488d6",
+            400: "#2c6ebe", // 400: "#4488d6",
             500: "#2c6ebe", // blue novacap
             600: "#215694",
             700: "#16406F",
