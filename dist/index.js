@@ -23,6 +23,7 @@ __exportStar(require("./components/NCCheckboxGroup"), exports);
 __exportStar(require("./components/NCPageTitle"), exports);
 __exportStar(require("./components/NCInputFeedbackRight"), exports);
 __exportStar(require("./components/NCSpinner"), exports);
+__exportStar(require("./components/NCTooltip"), exports);
 __exportStar(require("./widgets/NCModal"), exports);
 __exportStar(require("./widgets/NCModal/NCModalConfirmation"), exports);
 __exportStar(require("./widgets/NCFooter"), exports);

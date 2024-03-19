@@ -7,6 +7,7 @@ export * from "./components/NCCheckboxGroup";
 export * from "./components/NCPageTitle";
 export * from "./components/NCInputFeedbackRight";
 export * from "./components/NCSpinner";
+export * from "./components/NCTooltip";
 export * from "./widgets/NCModal";
 export * from "./widgets/NCModal/NCModalConfirmation";
 export * from "./widgets/NCFooter";

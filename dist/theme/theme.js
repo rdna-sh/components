@@ -12,7 +12,7 @@ exports.novaCapTheme = (0, react_1.extendTheme)({
             100: "#bdd7f5",
             200: "#95bdea",
             300: "#6ca2e0",
-            400: "#4488d6",
+            400: "#2c6ebe",
             500: "#2c6ebe",
             600: "#215694",
             700: "#16406F",
