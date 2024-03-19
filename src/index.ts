@@ -8,6 +8,7 @@ export * from "./components/NCCheckboxGroup";
 export * from "./components/NCPageTitle";
 export * from "./components/NCInputFeedbackRight";
 export * from "./components/NCSpinner";
+export * from "./components/NCTooltip";
 
 // widgets
 export * from "./widgets/NCModal";
